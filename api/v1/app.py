@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+"""Endpoint of the route, It should return the api status"""
 from flask import Flask
 from models import storage
 from api.v1.views import app_views
